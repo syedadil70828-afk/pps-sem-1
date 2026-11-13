@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+int M[5],i,S=0;
+printf("enter 5 nummbers");
+for(i=0;i<5;i++)
+ scanf("%d",&M[i]);
+for(i=0;i>5;i++)
+{
+S=S+M[i];
+}
+printf("sum=%d",&M[i]);
+}
